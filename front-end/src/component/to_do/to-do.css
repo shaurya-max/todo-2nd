@@ -1,0 +1,42 @@
+.todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    padding: 3px 8px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  

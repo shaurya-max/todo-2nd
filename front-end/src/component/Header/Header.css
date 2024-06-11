@@ -1,0 +1,50 @@
+/* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(188, 212, 236);
+  padding: 1rem;
+}
+
+.frame {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-right: 1rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #010202;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+}
